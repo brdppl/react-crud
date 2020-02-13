@@ -2,9 +2,23 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 15px;
+    height: 60px;
+
+    .navbar-brand {
+        .fa-react {
+            color: #00d8ff;
+            animation: spin linear infinite 6s;
+        }
+    }
 
     .navbar-collapse {
         display: flex;
         justify-content: flex-end;
     }
+}
+
+@keyframes spin {
+    from {transform: rotate(0)}
+    to {transform: rotate(360deg)}
 }

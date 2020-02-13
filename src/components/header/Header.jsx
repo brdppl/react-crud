@@ -11,7 +11,7 @@ export default props => (
 
         <div className="collapse navbar-collapse">
             <ul className="navbar-nav">
-                <NavItem url="/" name="Home" />
+                <NavItem exact={true} url="/" name="Home" />
                 <NavItem url="/users" name="Usuários" />
             </ul>
         </div>
