@@ -1,0 +1,25 @@
+// Presets
+html, body {
+    margin: 0;
+    width: 100%;
+}
+
+.mt-15 {margin-top: 15px !important;}
+.mt-30 {margin-top: 30px !important;}
+.mt-50 {margin-top: 50px !important;}
+
+.mb-15 {margin-bottom: 15px !important;}
+.mb-30 {margin-bottom: 30px !important;}
+.mb-50 {margin-bottom: 50px !important;}
+
+
+// Root
+:root {
+    --color-bg: #f5f5f5;
+}
+
+
+// App style
+.app {
+    background: var(--color-bg);
+}
