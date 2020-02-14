@@ -2,7 +2,7 @@
 Fazendo um projeto de CRUD com React
 
 ## Backend
-Backend fake com `json-server`.
+Backend fake com `json-server`.<br>
 Exemplo:
 ```
 {
